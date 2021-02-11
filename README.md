@@ -17,15 +17,15 @@ A minimal template –_mall_ in Swedish \*badumtss\*– for Node.js web applicat
 
 - Install all dependencies
 
-    ```
-    npm install
-    ```
+  ```
+  npm install
+  ```
 
 - Run the app in development mode
 
-    ```
-    npm run dev
-    ```
+  ```
+  npm run dev
+  ```
 
 ## Philosophy
 
@@ -44,7 +44,6 @@ Any **feature** or decision:
 - Dev dependencies: prettier and eslint for formatting and linting; jest for testing
 - NPM commands: `npm test`, `npm run format` and `npm run dev`
 - KTH-specific Docker-related files: `Dockerfile`, `docker-compose-unit-tests.yml`, `.dockerignore`
-
 
 ## Contributing
 
