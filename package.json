@@ -1,0 +1,11 @@
+{
+  "name": "lms-minimall",
+  "version": "1.0.0",
+  "description": "A minimal template (mall) for Node.js applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KTH Royal Institute of Technology",
+  "license": "MIT"
+}
