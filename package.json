@@ -6,7 +6,8 @@
   "scripts": {
     "format": "prettier --write .",
     "test:lint": "prettier --check .",
-    "test": "npm run test:lint"
+    "test": "npm run test:lint",
+    "build": "npm test"
   },
   "author": "KTH Royal Institute of Technology",
   "license": "MIT",
