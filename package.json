@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
