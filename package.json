@@ -4,8 +4,13 @@
   "description": "A minimal template (mall) for Node.js applications",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write .",
+    "test:lint": "prettier --check .",
+    "test": "npm run test:lint"
   },
   "author": "KTH Royal Institute of Technology",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
