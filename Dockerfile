@@ -4,7 +4,7 @@
 # First "stage" is a development image, used to install dependencies and
 # build things. It is also used for testing.
 # If you want to use an official Node.js image: FROM node:14 AS development
-FROM kthse/kth-nodejs:14.0.0
+FROM kthse/kth-nodejs:14.0.0 AS development
 WORKDIR /usr/src/app
 
 # Copying package*.json files first allows us to use the cached dependencies if
