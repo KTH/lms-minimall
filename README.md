@@ -1,13 +1,6 @@
 # LMS Mini-mall
 
-A minimal template –_mall_ in Swedish \*badumtss\*– for Node.js web applications. It has:
-
-- Developer dependencies and npm commands
-- [skog](https://github.com/kth/skog) and [Pino](https://github.com/pinojs/pino) for logging
-- [express](http://expressjs.com/), framework to create a server
-- [dotenv](https://github.com/motdotla/dotenv) for reading `.env` files
-- And a super-simple `src/app.js` file that does almost anything
-- KTH-specific Docker-related files
+A minimal template –_mall_ in Swedish \*badumtss\*– for Node.js web applications.
 
 ## Getting started
 
@@ -29,9 +22,9 @@ And then…
 
 ### 📝 Checklist for production
 
-- [] Change the `name` (and author, if needed) in `package.json`
-- [] Change the `IMAGE_NAME` in `docker.conf`
-- [] Modify the `LICENSE` if needed
+- [ ] Change the `name` (and author, if needed) in `package.json`
+- [ ] Change the `IMAGE_NAME` in `docker.conf`
+- [ ] Modify the `LICENSE` if needed
 
 ---
 
@@ -49,9 +42,10 @@ Any **feature** or decision:
 
 ### What does contain?
 
+- Configuration files: `.gitignore`, `.prettierignore`, `.dockerignore`, etc.
 - Dev dependencies: prettier and eslint for formatting and linting; jest for testing
 - NPM commands: `npm test`, `npm run format` and `npm run dev`
-- KTH-specific Docker-related files: `Dockerfile`, `docker-compose-unit-tests.yml`, `.dockerignore`
+- KTH-specific Docker-related files: `docker.conf`, `Dockerfile`, `docker-compose-unit-tests.yml`, `.dockerignore`
 
 ## Contributing
 
