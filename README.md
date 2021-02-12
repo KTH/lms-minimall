@@ -11,9 +11,9 @@ A minimal template –_mall_ in Swedish \*badumtss\*– for Node.js web applicat
 
 ## Getting started
 
-[Use this as a template!](https://github.com/kth/lms-minimall/generate)
+[▶️▶️▶️▶️ Use this as a template!](https://github.com/kth/lms-minimall/generate)
 
----
+And then…
 
 - Install all dependencies
 
@@ -26,6 +26,14 @@ A minimal template –_mall_ in Swedish \*badumtss\*– for Node.js web applicat
   ```
   npm run dev
   ```
+
+### 📝 Checklist for production
+
+- [] Change the `name` (and author, if needed) in `package.json`
+- [] Change the `IMAGE_NAME` in `docker.conf`
+- [] Modify the `LICENSE` if needed
+
+---
 
 ## Philosophy
 
